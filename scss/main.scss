@@ -1,6 +1,17 @@
-$primar-color: #545454;
+* {
+  box-sizing: border-box;
+}
 
-body {
-  background: $primar-color;
-  color: #fff;
+.btn {
+  text-decoration: none;
+  background: #fff;
+  color: orange;
+}
+
+.btn-nav {
+  
+  &:hover {
+    color: orangered;
+    transition: all 0.5s ease-in-out;
+  }
 }
