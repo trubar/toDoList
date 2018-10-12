@@ -1,0 +1,19 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "toDo lista",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trubar/toDoList.git"
+  },
+  "author": "Andraž Bečaj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trubar/toDoList/issues"
+  },
+  "homepage": "https://github.com/trubar/toDoList#readme"
+}
