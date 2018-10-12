@@ -4,7 +4,7 @@
   "description": "toDo lista",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "node-sass --watch scss/ --output dist/css/ --recursive"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/trubar/toDoList/issues"
   },
-  "homepage": "https://github.com/trubar/toDoList#readme"
+  "homepage": "https://github.com/trubar/toDoList#readme",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
 }
